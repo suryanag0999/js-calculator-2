@@ -8,7 +8,7 @@ You can check out the live version of the calculator here: [JS Calculator](https
 
 ## Features
 - Basic arithmetic operations: Addition, Subtraction, Multiplication, and Division.
-- Scientific functions: Square root, Exponents, Logarithms, Trigonometric functions (sin, cos, tan)
+- Scientific functions: Square root, Exponents, Logarithms, Trigonometric functions (sin, cos, tan).
 - Clear (C) button to reset the calculator
 - User-friendly interface
 - Responsive design for various screen sizes
