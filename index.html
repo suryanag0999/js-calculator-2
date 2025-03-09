@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>web calculator </title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <div class="page-container">
+        <!-- logo -->
+        <img src="./assest/logo/wsa-logo.svg" alt="wsa">
+        <section class="calculator-section-container">
+            <h1>calculator</h1>
+
+            <!-- background circle -->
+            <div class="bg-circle">
+                <!-- main calc -->
+                <div class="container">
+                    <!-- display -->
+                     <div class="display">
+                        <input type="text" id="input" class="secondary-input" disabled />
+                        <input type="text" id="screen" class="primary-input" disabled />
+                    </div>
+                    <!-- 1strow -->
+                     <div class="row row-first">
+                        <button class="btn btn-primary" onclick="back()"><img src="./assest/logo/delete.svg" height="40px" width="40px"></button>
+                        <button id="ce" class="btn btn-primary" width="100%" onclick="clearExpression()">CE</button>
+
+                        <button class="btn btn-primary">AC</button>
+
+                        <!-- <button class="btn btn-primary">%</button>
+                        <button class="btn btn-primary">÷</button> -->
+                     </div>
+                    <!-- 2ndrow -->
+                     <div class="row">
+                        <button class="btn">(</button>
+                        <button class="btn">)</button>
+                        <button class="btn">^</button>
+                        <button class="btn">+/-</button>
+                        <button class="btn">✓</button>
+                    </div>
+                    <!-- 3row -->
+                    <div class="row">
+                        <button class="btn">7</button>
+                        <button class="btn">8</button>
+                        <button class="btn">9</button>
+                        <button class="btn">÷</button>
+                        <button class="btn-class" onclick="calpercentage()">%</button>
+                    </div>
+                    <!-- 4throw -->
+                    <div class="row">
+                        <button class="btn">4</button>
+                        <button class="btn">5</button>
+                        <button class="btn">6</button>
+                        <button class="btn">×</button>
+                        <button class="btn-class" onclick="inverse()">1/×</button>
+
+
+                    </div>
+                    <!-- 5trow -->
+                    <div class="row">
+                        <button class="btn">1</button>
+                        <button class="btn">2</button>
+                        <button class="btn">3</button>
+                        <button class="btn">+</button>
+                        <button class=" btn-primary btn-equal" onclick="getResult()">(=)</button>
+
+
+                    </div>
+                    <!-- 6throw -->
+                     <div class="row">
+                        <button class="btn btn-expanded">0</button>
+                        <button class="btn">.</button>
+                        <button class="btn btn-primary">-</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- footer -->
+        <p class="copyright-text">&copy; wsa all rights reserved</p>
+    </div>
+    <script src="./javascript/script.js"></script>
+</body>
+</html>
