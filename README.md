@@ -7,7 +7,7 @@ A simple, responsive, and user-friendly scientific calculator built using HTML, 
 You can check out the live version of the calculator here: [JS Calculator](https://suryanag0999.github.io/js-calculator-2/)
 
 ## Features
-- Basic arithmetic operations: Addition, Subtraction, Multiplication, and Division
+- Basic arithmetic operations: Addition, Subtraction, Multiplication, and Division.
 - Scientific functions: Square root, Exponents, Logarithms, Trigonometric functions (sin, cos, tan)
 - Clear (C) button to reset the calculator
 - User-friendly interface
